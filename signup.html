@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head>
+    <style>
+        td{
+            padding: 10px;
+        }
+    </style></head>
+<body bgcolor=#B0C4DE>
+<center>
+<h2><b>CREATE AN ACCOUNT</b></h2>
+</center>
+<form name="form" method="post" action="stockinsert.php">
+<table style="padding: 10px;">  <tr><td><b>NAME:</b></td>
+    <td><input type="text" name="name" id="name"/></td></tr>
+
+<tr><td><b>USERNAME:</b></td><td>
+    <input type="text" name="username" id="username"/></td></tr>
+  
+ <tr><td>   <b>PASSWORD:</b></td><td>
+     <input type="password" name="password" id="password"/></td></tr>
+
+ <tr><td><b> DOB:</b></td><td>
+     <input type="date" name="dob"/></td></tr>
+
+  <tr><td><b>GENDER:</b></td><td>
+  <input type="radio" name="gender" value="Male" id="gender" checked/>Male
+      <input type="radio" name="gender" id="gender" value="Female"/>Female</td></tr>
+  
+  <tr><td><b>e-MAIL ID:</b></td><td>
+      <input type="email" name="email" id="email"/></td></tr>
+
+  <tr><td><b>CONTACT-NO:</b></td><td>
+      <input type="text" name="phone" id="phone"/></td></tr>
+ 
+    <tr><td><b>ADDRESS:</b></td><td>
+        <input type="text" name="address" id="address"/></td></tr>
+  
+    <tr><td><b>MEMBER:</b></td><td>
+  <input type="radio" name="member" value="Yes" id="member" checked/>Yes
+        <input type="radio" name="member" id="member" value="No"/>No</td></tr>
+ </table>
+  <center>
+  <input type="submit" value="SUBMIT"/>
+  <input type="reset"  value="CLEAR"/>
+    </center>
+</form>
+</body>
+</html>

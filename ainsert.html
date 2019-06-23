@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head>
+    <style>
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ font-weight:bold;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+    input{
+        border: none;
+    }
+    td{
+            padding: 10px;
+        }
+    </style></head>
+<body bgcolor=#B0C4DE>
+<div class="topnav">
+        <a href="admin.html">Back</a>
+</div><br>
+<center>
+<h2><b>INSERT PRODUCT</b></h2>
+<form name="form" method="post" action="admininsert.php">
+<table style="padding: 10px;">  
+<tr><td><b>PRODUCT ID:</b></td><td>
+    <input type="text" name="prodid" /></td></tr>
+
+  <tr><td><b>PRODUCT NAME:</b></td><td>
+      <input type="text" name="prodname" /></td></tr>
+ 
+    <tr><td><b>QUANTITY:</b></td><td>
+        <input type="text" name="quant" /></td></tr>
+    
+     <tr><td><b>PRICE:</b></td><td>
+        <input type="text" name="price" /></td></tr>
+    
+    <tr><td><b>MANUFACTURER:</b></td><td>
+        <input type="text" name="manu" /></td></tr>
+  
+ </table><br>
+ 
+  <input type="submit" value="SUBMIT"/>
+  <input type="reset"  value="CLEAR"/>
+   
+</form> </center>
+</body>
+</html>
